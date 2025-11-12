@@ -82,17 +82,5 @@ I opened a browser on the host machine, logged into the Splunk Web interface usi
 
 ---
 
-## 📊 Splunk Navigation & Initial Setup
-I explored the Monitoring Console and built-in dashboards, confirmed the default indexes (`main`, `_internal`, `_audit`), and reviewed menus for Data Inputs, Forwarder Management, and Licensing. I ran example searches to verify that data ingestion was working as expected.
-
-📸 Screenshot Placeholder: Dashboard layout, index list, forwarder/input configuration, licensing overview  
-
-**Code/Configuration Explanation:**  
-- Confirms Splunk dashboards and monitoring console are operational.  
-- Checks default indexes to ensure logs are being stored correctly.  
-- Reviews configuration menus for managing forwarders, data inputs, and licensing.
-
----
-
 ## 📝 Summary
 In this lab, I rebuilt my Splunk environment after discovering that my initial server disk was too small. I installed Splunk Enterprise on the server and the Universal Forwarder on the endpoint. I verified network connectivity between the two VMs and confirmed that logs were successfully forwarded and visible in Splunk Web. This setup ensures a fully functional SOC lab environment for monitoring and analysis.
